@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake_modules/FindLIBXML2.cmake"
   "../cmake_modules/FindLIBXSLT.cmake"
   "../cmake_modules/FindNUMA.cmake"
+  "../cmake_modules/FindOCTAVE.cmake"
   "../cmake_modules/FindOPENLDAP.cmake"
   "../cmake_modules/FindOPENSSL.cmake"
   "../cmake_modules/FindZLIB.cmake"
@@ -28,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
+  "../plugins/octave/CMakeLists.txt"
   "../roxie/roxiemem/CMakeLists.txt"
   "../rtl/eclrtl/CMakeLists.txt"
   "../rtl/nbcd/CMakeLists.txt"
@@ -95,6 +97,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "system/lz4_sm/CMakeFiles/CMakeDirectoryInformation.cmake"
   "system/libbase58/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dali/base/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "plugins/octave/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -137,4 +140,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "system/lz4_sm/CMakeFiles/lz4.dir/DependInfo.cmake"
   "system/libbase58/CMakeFiles/libbase58.dir/DependInfo.cmake"
   "dali/base/CMakeFiles/dalibase.dir/DependInfo.cmake"
+  "plugins/octave/CMakeFiles/octaveembed.dir/DependInfo.cmake"
   )

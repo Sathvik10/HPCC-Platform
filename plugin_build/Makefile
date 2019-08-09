@@ -683,6 +683,19 @@ dalibase/fast:
 	$(MAKE) -f dali/base/CMakeFiles/dalibase.dir/build.make dali/base/CMakeFiles/dalibase.dir/build
 .PHONY : dalibase/fast
 
+#=============================================================================
+# Target rules for targets named octaveembed
+
+# Build rule for target.
+octaveembed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 octaveembed
+.PHONY : octaveembed
+
+# fast build rule for target.
+octaveembed/fast:
+	$(MAKE) -f plugins/octave/CMakeFiles/octaveembed.dir/build.make plugins/octave/CMakeFiles/octaveembed.dir/build
+.PHONY : octaveembed/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -736,6 +749,7 @@ help:
 	@echo "... lz4"
 	@echo "... libbase58"
 	@echo "... dalibase"
+	@echo "... octaveembed"
 .PHONY : help
 
 

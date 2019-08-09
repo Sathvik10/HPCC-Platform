@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/sathvik/hpcc/HPCC-Platform/plugin_build/rtl/eclrtl/cmake_install.cmake")
   include("/home/sathvik/hpcc/HPCC-Platform/plugin_build/system/jlib/cmake_install.cmake")
   include("/home/sathvik/hpcc/HPCC-Platform/plugin_build/dali/base/cmake_install.cmake")
+  include("/home/sathvik/hpcc/HPCC-Platform/plugin_build/plugins/octave/cmake_install.cmake")
 
 endif()
 

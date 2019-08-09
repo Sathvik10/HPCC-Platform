@@ -487,6 +487,18 @@ NUMA_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libnuma.so
 //Create a package with ONLY the OCTAVEEMBED plugin
 OCTAVEEMBED:BOOL=ON
 
+//The directory containing a CMake configuration file for OCTAVE.
+OCTAVE_DIR:PATH=OCTAVE_DIR-NOTFOUND
+
+//Path to a file.
+OCTAVE_INCLUDE_DIR:PATH=/usr/local/include/octave-5.1.0/octave
+
+//Path to a library.
+OCTAVE_LIBRARIES_1:FILEPATH=/usr/local/lib/octave/5.1.0/liboctave.so
+
+//Path to a library.
+OCTAVE_LIBRARIES_2:FILEPATH=/usr/local/lib/octave/5.1.0/liboctinterp.so
+
 //Path to a file.
 OPENLDAP_INCLUDE_DIR:PATH=/usr/include
 
@@ -764,6 +776,12 @@ nbcd_BINARY_DIR:STATIC=/home/sathvik/hpcc/HPCC-Platform/plugin_build/rtl/nbcd
 nbcd_SOURCE_DIR:STATIC=/home/sathvik/hpcc/HPCC-Platform/rtl/nbcd
 
 //Value Computed by CMake
+octaveembed_BINARY_DIR:STATIC=/home/sathvik/hpcc/HPCC-Platform/plugin_build/plugins/octave
+
+//Value Computed by CMake
+octaveembed_SOURCE_DIR:STATIC=/home/sathvik/hpcc/HPCC-Platform/plugins/octave
+
+//Value Computed by CMake
 roxiemem_BINARY_DIR:STATIC=/home/sathvik/hpcc/HPCC-Platform/plugin_build/roxie/roxiemem
 
 //Value Computed by CMake
@@ -914,7 +932,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -981,6 +999,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_LIBMEMCACHED:INTERNAL=[/usr/lib/x86_64-linux-gnu/li
 FIND_PACKAGE_MESSAGE_DETAILS_Libxml2:INTERNAL=[/usr/lib/x86_64-linux-gnu/libxml2.so][/usr/include/libxml2][v()]
 //Details about finding Libxslt
 FIND_PACKAGE_MESSAGE_DETAILS_Libxslt:INTERNAL=[/usr/lib/x86_64-linux-gnu/libxslt.so][/usr/include][/usr/lib/x86_64-linux-gnu/libexslt.so][/usr/include][v()]
+//Details about finding OCTAVE
+FIND_PACKAGE_MESSAGE_DETAILS_OCTAVE:INTERNAL=[/usr/local/lib/octave/5.1.0/liboctave.so;/usr/local/lib/octave/5.1.0/liboctinterp.so][v()]
 //Details about finding OPENSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OPENSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libssl.so][/usr/include][v()]
 //Details about finding OpenLDAP

@@ -1081,7 +1081,7 @@ all: roxie/roxiemem/CMakeFiles/roxiemem.dir/all
 
 # Build rule for subdir invocation for target.
 roxie/roxiemem/CMakeFiles/roxiemem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 roxie/roxiemem/CMakeFiles/roxiemem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 0
 .PHONY : roxie/roxiemem/CMakeFiles/roxiemem.dir/rule
@@ -1129,7 +1129,7 @@ rtl/nbcd/CMakeFiles/nbcd.dir/all: system/lz4_sm/CMakeFiles/lz4.dir/all
 rtl/nbcd/CMakeFiles/nbcd.dir/all: system/libbase58/CMakeFiles/libbase58.dir/all
 	$(MAKE) -f rtl/nbcd/CMakeFiles/nbcd.dir/build.make rtl/nbcd/CMakeFiles/nbcd.dir/depend
 	$(MAKE) -f rtl/nbcd/CMakeFiles/nbcd.dir/build.make rtl/nbcd/CMakeFiles/nbcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=95,96 "Built target nbcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=93,94 "Built target nbcd"
 .PHONY : rtl/nbcd/CMakeFiles/nbcd.dir/all
 
 # Include target in all.
@@ -1139,7 +1139,7 @@ all: rtl/nbcd/CMakeFiles/nbcd.dir/all
 
 # Build rule for subdir invocation for target.
 rtl/nbcd/CMakeFiles/nbcd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 rtl/nbcd/CMakeFiles/nbcd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 0
 .PHONY : rtl/nbcd/CMakeFiles/nbcd.dir/rule
@@ -1189,7 +1189,7 @@ rtl/eclrtl/CMakeFiles/eclrtl.dir/all: system/lz4_sm/CMakeFiles/lz4.dir/all
 rtl/eclrtl/CMakeFiles/eclrtl.dir/all: system/libbase58/CMakeFiles/libbase58.dir/all
 	$(MAKE) -f rtl/eclrtl/CMakeFiles/eclrtl.dir/build.make rtl/eclrtl/CMakeFiles/eclrtl.dir/depend
 	$(MAKE) -f rtl/eclrtl/CMakeFiles/eclrtl.dir/build.make rtl/eclrtl/CMakeFiles/eclrtl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target eclrtl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target eclrtl"
 .PHONY : rtl/eclrtl/CMakeFiles/eclrtl.dir/all
 
 # Include target in all.
@@ -1199,7 +1199,7 @@ all: rtl/eclrtl/CMakeFiles/eclrtl.dir/all
 
 # Build rule for subdir invocation for target.
 rtl/eclrtl/CMakeFiles/eclrtl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 87
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 86
 	$(MAKE) -f CMakeFiles/Makefile2 rtl/eclrtl/CMakeFiles/eclrtl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 0
 .PHONY : rtl/eclrtl/CMakeFiles/eclrtl.dir/rule
@@ -1254,7 +1254,7 @@ system/jlib/CMakeFiles/jlib.dir/all: system/lz4_sm/CMakeFiles/lz4.dir/all
 system/jlib/CMakeFiles/jlib.dir/all: system/libbase58/CMakeFiles/libbase58.dir/all
 	$(MAKE) -f system/jlib/CMakeFiles/jlib.dir/build.make system/jlib/CMakeFiles/jlib.dir/depend
 	$(MAKE) -f system/jlib/CMakeFiles/jlib.dir/build.make system/jlib/CMakeFiles/jlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target jlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target jlib"
 .PHONY : system/jlib/CMakeFiles/jlib.dir/all
 
 # Include target in all.
@@ -1264,7 +1264,7 @@ all: system/jlib/CMakeFiles/jlib.dir/all
 
 # Build rule for subdir invocation for target.
 system/jlib/CMakeFiles/jlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 57
 	$(MAKE) -f CMakeFiles/Makefile2 system/jlib/CMakeFiles/jlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 0
 .PHONY : system/jlib/CMakeFiles/jlib.dir/rule
@@ -1309,7 +1309,7 @@ system/lzma/preinstall:
 system/lzma/CMakeFiles/lzma.dir/all:
 	$(MAKE) -f system/lzma/CMakeFiles/lzma.dir/build.make system/lzma/CMakeFiles/lzma.dir/depend
 	$(MAKE) -f system/lzma/CMakeFiles/lzma.dir/build.make system/lzma/CMakeFiles/lzma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=91,92,93,94 "Built target lzma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=89,90,91,92 "Built target lzma"
 .PHONY : system/lzma/CMakeFiles/lzma.dir/all
 
 # Include target in all.
@@ -1364,7 +1364,7 @@ system/lz4_sm/preinstall:
 system/lz4_sm/CMakeFiles/lz4.dir/all:
 	$(MAKE) -f system/lz4_sm/CMakeFiles/lz4.dir/build.make system/lz4_sm/CMakeFiles/lz4.dir/depend
 	$(MAKE) -f system/lz4_sm/CMakeFiles/lz4.dir/build.make system/lz4_sm/CMakeFiles/lz4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=89,90 "Built target lz4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=87,88 "Built target lz4"
 .PHONY : system/lz4_sm/CMakeFiles/lz4.dir/all
 
 # Include target in all.
@@ -1419,7 +1419,7 @@ system/libbase58/preinstall:
 system/libbase58/CMakeFiles/libbase58.dir/all:
 	$(MAKE) -f system/libbase58/CMakeFiles/libbase58.dir/build.make system/libbase58/CMakeFiles/libbase58.dir/depend
 	$(MAKE) -f system/libbase58/CMakeFiles/libbase58.dir/build.make system/libbase58/CMakeFiles/libbase58.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=87,88 "Built target libbase58"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=85,86 "Built target libbase58"
 .PHONY : system/libbase58/CMakeFiles/libbase58.dir/all
 
 # Include target in all.
@@ -1474,7 +1474,7 @@ dali/base/preinstall:
 dali/base/CMakeFiles/dalibase.dir/all:
 	$(MAKE) -f dali/base/CMakeFiles/dalibase.dir/build.make dali/base/CMakeFiles/dalibase.dir/depend
 	$(MAKE) -f dali/base/CMakeFiles/dalibase.dir/build.make dali/base/CMakeFiles/dalibase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target dalibase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target dalibase"
 .PHONY : dali/base/CMakeFiles/dalibase.dir/all
 
 # Include target in all.
@@ -1484,7 +1484,7 @@ all: dali/base/CMakeFiles/dalibase.dir/all
 
 # Build rule for subdir invocation for target.
 dali/base/CMakeFiles/dalibase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 dali/base/CMakeFiles/dalibase.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 0
 .PHONY : dali/base/CMakeFiles/dalibase.dir/rule
@@ -1501,6 +1501,67 @@ dali/base/CMakeFiles/dalibase.dir/clean:
 
 # clean rule for target.
 clean: dali/base/CMakeFiles/dalibase.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory plugins/octave
+
+# Convenience name for "all" pass in the directory.
+plugins/octave/all: plugins/octave/CMakeFiles/octaveembed.dir/all
+
+.PHONY : plugins/octave/all
+
+# Convenience name for "clean" pass in the directory.
+plugins/octave/clean: plugins/octave/CMakeFiles/octaveembed.dir/clean
+
+.PHONY : plugins/octave/clean
+
+# Convenience name for "preinstall" pass in the directory.
+plugins/octave/preinstall:
+
+.PHONY : plugins/octave/preinstall
+
+#=============================================================================
+# Target rules for target plugins/octave/CMakeFiles/octaveembed.dir
+
+# All Build rule for target.
+plugins/octave/CMakeFiles/octaveembed.dir/all: roxie/roxiemem/CMakeFiles/roxiemem.dir/all
+plugins/octave/CMakeFiles/octaveembed.dir/all: rtl/nbcd/CMakeFiles/nbcd.dir/all
+plugins/octave/CMakeFiles/octaveembed.dir/all: rtl/eclrtl/CMakeFiles/eclrtl.dir/all
+plugins/octave/CMakeFiles/octaveembed.dir/all: system/jlib/CMakeFiles/jlib.dir/all
+plugins/octave/CMakeFiles/octaveembed.dir/all: system/lzma/CMakeFiles/lzma.dir/all
+plugins/octave/CMakeFiles/octaveembed.dir/all: system/lz4_sm/CMakeFiles/lz4.dir/all
+plugins/octave/CMakeFiles/octaveembed.dir/all: system/libbase58/CMakeFiles/libbase58.dir/all
+	$(MAKE) -f plugins/octave/CMakeFiles/octaveembed.dir/build.make plugins/octave/CMakeFiles/octaveembed.dir/depend
+	$(MAKE) -f plugins/octave/CMakeFiles/octaveembed.dir/build.make plugins/octave/CMakeFiles/octaveembed.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles --progress-num=95,96 "Built target octaveembed"
+.PHONY : plugins/octave/CMakeFiles/octaveembed.dir/all
+
+# Include target in all.
+all: plugins/octave/CMakeFiles/octaveembed.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+plugins/octave/CMakeFiles/octaveembed.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 88
+	$(MAKE) -f CMakeFiles/Makefile2 plugins/octave/CMakeFiles/octaveembed.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sathvik/hpcc/HPCC-Platform/plugin_build/CMakeFiles 0
+.PHONY : plugins/octave/CMakeFiles/octaveembed.dir/rule
+
+# Convenience name for target.
+octaveembed: plugins/octave/CMakeFiles/octaveembed.dir/rule
+
+.PHONY : octaveembed
+
+# clean rule for target.
+plugins/octave/CMakeFiles/octaveembed.dir/clean:
+	$(MAKE) -f plugins/octave/CMakeFiles/octaveembed.dir/build.make plugins/octave/CMakeFiles/octaveembed.dir/clean
+.PHONY : plugins/octave/CMakeFiles/octaveembed.dir/clean
+
+# clean rule for target.
+clean: plugins/octave/CMakeFiles/octaveembed.dir/clean
 
 .PHONY : clean
 

@@ -1,7 +1,5 @@
 project(octaveembed)
-message ("OCTAVE PLUGIN")
 if(OCTAVEEMBED)
-    message ("Octave Plugin development")
     ADD_PLUGIN(octaveembed PACKAGES OCTAVE)
     if(MAKE_OCTAVEEMBED)
         set(

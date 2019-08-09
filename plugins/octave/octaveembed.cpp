@@ -184,6 +184,8 @@ public:
       {
          return result.bool_value();
       }
+      
+      return false;
    }
 
    virtual void getDataResult(const RtlFieldInfo *field, size32_t &len, void * &result){}
@@ -204,6 +206,7 @@ public:
          return result.double_value();
       if (result.is_single_type())
          return result.float_value();
+      return 0;
    }
 
    virtual __int64 getSignedResult(const RtlFieldInfo *field)
@@ -221,6 +224,7 @@ public:
       result = getResult(field);
       if (result.isinteger())
          return result.int_value();
+      return 0;
    }
 
    virtual unsigned __int64 getUnsignedResult(const RtlFieldInfo *field)
@@ -238,6 +242,7 @@ public:
       result = getResult(field);
       if (result.isinteger())
          return result.uint_value();
+      return 0;
    }
 
    virtual void getStringResult(const RtlFieldInfo *field, size32_t &len, char * &__result)
@@ -1438,6 +1443,8 @@ public:
                return result.bool_value();
          rtlFail(0, "OctaveEmbed : Result type mismatch");
       }
+
+      return false;
    }
 
    virtual void getDataResult(size32_t &len, void * &result)
@@ -1458,6 +1465,8 @@ public:
 
          rtlFail(0, "OctaveEmbed : Result type mismatch");
       }
+
+      return 0;
    }
 
    virtual __int64 getSignedResult()
@@ -1492,6 +1501,8 @@ public:
 
          return ret;
       }
+
+      return 0;
    }
 
    virtual unsigned __int64 getUnsignedResult()
@@ -1522,6 +1533,8 @@ public:
          
          return ret;
       }
+
+      return 0;
    }
 
    virtual void getStringResult(size32_t &tlen, char * &trg)

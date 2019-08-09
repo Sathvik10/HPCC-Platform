@@ -79,7 +79,7 @@
 #endif
 
 #ifndef BUILD_TAG
-    #define BUILD_TAG "community_7.2.2-1Debug[community_7.2.2-1-dirty]"
+    #define BUILD_TAG "community_7.2.2-1Debug[community_7.2.2-1-2-gac712b-dirty]"
 #endif
 
 #ifndef BUILD_VERSION_MAJOR
