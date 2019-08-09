@@ -101,6 +101,7 @@ IF ("${COMMONSETUP_DONE}" STREQUAL "")
   option(USE_SIGNED_CHAR "Build system with default char type is signed" OFF)
   option(USE_UNSIGNED_CHAR "Build system with default char type is unsigned" OFF)
   option(USE_MYSQL "Enable mysql support" ON)
+  option(USE_OCTAVE "Enable octave support" ON)
   option(USE_LIBMEMCACHED "Enable libmemcached support" ON)
   option(USE_PYTHON2 "Enable python2 language support for platform build" ON)
   option(USE_PYTHON3 "Enable python3 language support for platform build" ON)
@@ -152,6 +153,7 @@ IF ("${COMMONSETUP_DONE}" STREQUAL "")
     REDIS
     SQS
     MYSQLEMBED
+    OCTAVEEMBED
     JAVAEMBED
     SQLITE3EMBED
     KAFKA
@@ -893,6 +895,17 @@ IF ("${COMMONSETUP_DONE}" STREQUAL "")
       else()
         add_definitions (-D_NO_MYSQL_REPOSITORY)
       endif(USE_MYSQL_REPOSITORY)
+
+      if(USE_OCTAVE_REPOSITORY)
+        find_package(OCTAVE)
+        if (OCTAVE_FOUND)
+          add_definitions (-D_USE_OCTAVE_REPOSITORY)
+        else()
+          message(FATAL_ERROR "OCTAVE requested but package not found")
+        endif()
+      else()
+        add_definitions (-D_NO_OCTAVE_REPOSITORY)
+      endif(USE_OCTAVE_REPOSITORY)
 
       if(USE_APR)
         find_package(APR)
