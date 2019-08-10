@@ -552,15 +552,22 @@ protected:
 
 static size32_t getRowResult(octave_value row, ARowBuilder &builder, bool inDataSet, Array<double>* vector)
 {
-   if (row.isempty())
-      rtlFail(0, "OctaveEmbed: Result is empty");
-   const RtlTypeInfo *typeInfo = builder.queryAllocator()->queryOutputMeta()->queryTypeInfo();
-   assertex(typeInfo);
-   RtlFieldStrInfo dummyField("<row>", nullptr, typeInfo);
-   OctaveRowBuilder ORowBuilder(row, &dummyField, inDataSet);
-   if (inDataSet)
-      ORowBuilder.initializeRow(*vector);
-   return typeInfo->build(builder, 0, &dummyField, ORowBuilder);
+   try
+   {
+      if (row.isempty())
+         rtlFail(0, "OctaveEmbed: Result is empty");
+      const RtlTypeInfo *typeInfo = builder.queryAllocator()->queryOutputMeta()->queryTypeInfo();
+      assertex(typeInfo);
+      RtlFieldStrInfo dummyField("<row>", nullptr, typeInfo);
+      OctaveRowBuilder ORowBuilder(row, &dummyField, inDataSet);
+      if (inDataSet)
+         ORowBuilder.initializeRow(*vector);
+      return typeInfo->build(builder, 0, &dummyField, ORowBuilder);
+   }
+   catch (...)
+   {
+      rtlFail(0,"OctaveEmbed: Check the syntax rules");
+   }
 }
 
 class OctaveRowStream : public  CInterfaceOf<IRowStream>
@@ -1794,14 +1801,28 @@ public:
 
    virtual IRowStream *getDatasetResult(IEngineRowAllocator * _resultAllocator)
    {
-      return new OctaveRowStream(result, _resultAllocator);
+      try
+      {
+         return new OctaveRowStream(result, _resultAllocator);
+      }
+      catch (...)
+      {
+         rtlFail(0,"OctaveEmbed: Check the syntax rules");
+      }
    }
 
    virtual byte * getRowResult(IEngineRowAllocator * _resultAllocator)
    {
-      RtlDynamicRowBuilder rowBuilder(_resultAllocator);
-      size32_t len = octaveembed::getRowResult(result, rowBuilder, false, nullptr);
-      return (byte *) rowBuilder.finalizeRowClear(len);
+      try
+      {
+         RtlDynamicRowBuilder rowBuilder(_resultAllocator);
+         size32_t len = octaveembed::getRowResult(result, rowBuilder, false, nullptr);
+         return (byte *) rowBuilder.finalizeRowClear(len);
+      }
+      catch (...)
+      {
+         rtlFail(0,"OctaveEmbed: Check the syntax rules");
+      }
    }
 
    virtual size32_t getTransformResult(ARowBuilder & builder)
