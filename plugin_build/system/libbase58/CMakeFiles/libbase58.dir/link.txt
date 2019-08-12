@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../Debug/libs/liblibbase58.a  CMakeFiles/libbase58.dir/base58.c.o
-/usr/bin/ranlib ../../Debug/libs/liblibbase58.a

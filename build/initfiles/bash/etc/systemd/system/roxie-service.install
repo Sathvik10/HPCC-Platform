@@ -1,3 +1,0 @@
-if [[ -e /bin/systemctl ]]; then
-    installFile "$path/etc/systemd/system/roxie@.service" "/etc/systemd/system/roxie@.service" 1 || exit 1
-fi

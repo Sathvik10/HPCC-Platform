@@ -1,3 +1,0 @@
-if [[ -e /bin/systemctl ]]; then
-    installFile "$path/etc/systemd/system/thor-conf@.service" "/etc/systemd/system/thor-conf@.service" 1 || exit 1
-fi
