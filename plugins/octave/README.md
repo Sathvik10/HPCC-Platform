@@ -33,7 +33,7 @@ x               //If X is the required value.
 ```
 Building Of Octave
 ------------------
-Octave can built in various various ways. I suggested method is to build from the source code. Before building make sure all the dependencies are present.   
+Octave can be built in various various ways. One suggested method is to build from the source code. Before building make sure all the dependencies are present.   
    `apt-get build-dep octave`   
 This command gets all the required dependencies. The source code can be obtained with this link.   
    https://ftp.gnu.org/gnu/octave/    
