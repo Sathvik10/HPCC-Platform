@@ -39,7 +39,7 @@ endif()
 
 if(PLATFORM OR CLIENTTOOLS_ONLY OR OCTAVEEMBED)
     install(
-        FILES ${CMAKE_CURRENT_SOURCE_DIR}/octave.ecllib
+        FILES ${CMAKE_CURRENT_SOURCE_DIR}/liboctaveembed.ecllib
         DESTINATION plugins
         COMPONENT Runtime)
 endif()
