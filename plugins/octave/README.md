@@ -31,6 +31,16 @@ if(for)
 endif(endfor)
 x               //If X is the required value.
 ```
+Building Of Octave
+------------------
+Octave can built in various various ways. I suggested method is to build from the source code. Before building make sure all the dependencies are present.   
+   `apt-get build-dep octave`   
+This command gets all the required dependencies. The source code can be obtained with this link.   
+   https://ftp.gnu.org/gnu/octave/    
+Download zip file, extract it. To build, cd into the extracted folder and run following commands    
+   `./configure`    
+   `make`     
+   `sudo make install`   
 
 Mapping
 -------
