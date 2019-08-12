@@ -37,7 +37,7 @@ if(OCTAVEEMBED)
     endif()
 endif()
 
-if(PLATFORM OR CLIENTTOOLS_ONLY)
+if(PLATFORM OR CLIENTTOOLS_ONLY OR OCTAVEEMBED)
     install(
         FILES ${CMAKE_CURRENT_SOURCE_DIR}/octave.ecllib
         DESTINATION plugins
