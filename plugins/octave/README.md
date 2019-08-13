@@ -79,6 +79,7 @@ Mapping
 | Set of utf8 | char matrix |  |
 | Record | structure |  |
 | Dataset | struct-array |  |
+| Dataset | Matrix | Additional information is provided in below section  |
 | Set Of Record | Unsupported | It implies array of structure which is mapped to Dataset | 
 
 `Octave plugin doesn't support data type and unicode type. Set of record and set of dataset is not supported`
